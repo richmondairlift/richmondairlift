@@ -5,28 +5,51 @@
   <title>Richmond Airdrop</title>
   <style>
     body {
-      font-family: system-ui, sans-serif;
-      max-width: 600px;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+      max-width: 700px;
       margin: 40px auto;
       padding: 20px;
-      line-height: 1.5;
+      line-height: 1.6;
+      color: #1a1a1a;
+    }
+    h1, h2 {
+      margin-top: 32px;
+    }
+    h1 {
+      font-size: 2rem;
+    }
+    .box {
+      margin-top: 24px;
+      padding: 20px;
+      background: #f5f7fa;
+      border-radius: 12px;
     }
     .button {
       display: block;
       text-align: center;
       padding: 15px;
-      margin: 20px 0;
+      margin: 12px 0;
       background: #3a76f0;
       color: white;
       text-decoration: none;
-      border-radius: 8px;
-      font-weight: bold;
+      border-radius: 10px;
+      font-weight: 600;
     }
-    .note {
-      margin-top: 20px;
-      padding: 10px;
-      background: #f3f3f3;
-      border-radius: 8px;
+    .button.secondary {
+      background: #4f86f7;
+    }
+    .button.tertiary {
+      background: #6b98f8;
+    }
+    .language-block {
+      margin-top: 16px;
+      padding: 16px;
+      background: #ffffff;
+      border: 1px solid #e0e0e0;
+      border-radius: 10px;
+    }
+    strong {
+      font-weight: 600;
     }
   </style>
 </head>
@@ -34,22 +57,93 @@
 
   <h1>Welcome to the Richmond Airdrop</h1>
 
-  <p>
-    To request access to the Richmond Airdrop group, please press the button below.
-    An admin will review your request and add you shortly.
-  </p>
+  <div class="box">
+    <p>
+      The Richmond Airdrop is a community-run effort focused on helping people
+      get everyday tasks done during a time when many things are changing quickly.
+    </p>
 
-  <a class="button" href="https://signal.me/#p/+18044760099">
-    Request Access on Signal
+    <p>
+      If you are looking for assistance or support, you can request access to the
+      Richmond Airdrop Signal group using the buttons below.
+    </p>
+
+    <p>
+      To ensure your request is seen as quickly as possible,
+      <strong>please message all three admins below</strong>.
+      This helps avoid delays if one admin is unavailable.
+    </p>
+  </div>
+
+  <h2>Request Access</h2>
+
+  <a class="button" href="https://signal.me/#p/+15550000001">
+    Message Admin 1 on Signal
   </a>
 
-  <div class="note">
-    <strong>Instructions:</strong>
-    <ul>
-      <li>Tap the button above to open Signal.</li>
-      <li>Send the message: <strong>JOIN RICHMOND AIRDROP</strong></li>
-      <li>An admin will add you to the group after approval.</li>
-    </ul>
+  <a class="button secondary" href="https://signal.me/#p/+15550000002">
+    Message Admin 2 on Signal
+  </a>
+
+  <a class="button tertiary" href="https://signal.me/#p/+15550000003">
+    Message Admin 3 on Signal
+  </a>
+
+  <div class="box">
+    <p>
+      Please send the same short message to each admin.  
+      This helps ensure you can be added within <strong>24 hours</strong>.
+    </p>
+
+    <p><strong>Message to send:</strong></p>
+    <p>
+      JOIN RICHMOND AIRDROP
+    </p>
+  </div>
+
+  <!-- TRANSLATIONS -->
+  <div class="box">
+    <h2>Instructions (Other Languages)</h2>
+
+    <div class="language-block">
+      <strong>Español</strong>
+      <p>
+        Para solicitar acceso, envíe un mensaje a los tres administradores usando
+        los botones de arriba. Envíe el mismo mensaje a cada uno para asegurar
+        que su solicitud sea vista dentro de las próximas 24 horas.
+      </p>
+      <p><strong>Mensaje a enviar:</strong> JOIN RICHMOND AIRDROP</p>
+    </div>
+
+    <div class="language-block">
+      <strong>Português (Brasil)</strong>
+      <p>
+        Para solicitar acesso, envie uma mensagem para todos os três administradores
+        usando os botões acima. Enviar a mesma mensagem para cada um ajuda a garantir
+        que seu pedido seja visto em até 24 horas.
+      </p>
+      <p><strong>Mensagem:</strong> JOIN RICHMOND AIRDROP</p>
+    </div>
+
+    <div class="language-block">
+      <strong>Français</strong>
+      <p>
+        Pour demander l’accès, envoyez un message aux trois administrateurs à l’aide
+        des boutons ci-dessus. Envoyer le même message à chacun permet d’assurer
+        que votre demande sera vue dans les 24 heures.
+      </p>
+      <p><strong>Message à envoyer :</strong> JOIN RICHMOND AIRDROP</p>
+    </div>
+
+    <div class="language-block">
+      <strong>Deutsch</strong>
+      <p>
+        Um Zugriff anzufordern, senden Sie eine Nachricht an alle drei Administratoren
+        über die obenstehenden Schaltflächen. Wenn Sie dieselbe Nachricht an alle senden,
+        stellen Sie sicher, dass Ihre Anfrage innerhalb von 24 Stunden gesehen wird.
+      </p>
+      <p><strong>Nachricht:</strong> JOIN RICHMOND AIRDROP</p>
+    </div>
   </div>
 
 </body>
