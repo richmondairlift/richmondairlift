@@ -2,72 +2,59 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Richmond Airlift – Helper Signup</title>
+  <title>Richmond Airlift | Helper Signup</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
   <style>
     body {
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-        Roboto, Helvetica, Arial, sans-serif;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
       line-height: 1.6;
-      margin: 0;
-      padding: 0;
-      background-color: #f7f7f7;
-      color: #222;
-    }
-
-    header {
-      background: #1f2933;
-      color: #fff;
-      padding: 2rem 1rem;
-      text-align: center;
-    }
-
-    header img {
-      max-width: 100%;
-      height: auto;
-      border-radius: 8px;
-      margin-top: 1.5rem;
-    }
-
-    main {
-      max-width: 800px;
-      margin: 2rem auto;
-      padding: 0 1rem;
-    }
-
-    section {
-      background: #ffffff;
-      padding: 1.5rem;
-      margin-bottom: 1.5rem;
-      border-radius: 8px;
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 20px;
+      color: #111;
     }
 
     h1, h2, h3 {
       line-height: 1.25;
     }
 
+    h1 {
+      margin-bottom: 0.25em;
+    }
+
     h2 {
-      margin-top: 0;
+      margin-top: 2em;
     }
 
-    ul, ol {
-      padding-left: 1.25rem;
+    p {
+      margin: 1em 0;
     }
 
-    .buttons {
-      display: flex;
-      flex-direction: column;
-      gap: 1rem;
-      margin-top: 1rem;
+    .hero {
+      margin: 30px 0;
+      text-align: center;
+    }
+
+    .hero img {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+
+    .image-subheader {
+      font-size: 0.85em;
+      color: #555;
+      margin-top: 6px;
+    }
+
+    .button-group {
+      margin: 20px 0;
     }
 
     .button {
       display: inline-block;
-      text-align: center;
-      padding: 0.75rem 1rem;
-      background: #2563eb;
+      margin: 8px 10px 8px 0;
+      padding: 12px 18px;
+      background: #111;
       color: #fff;
       text-decoration: none;
       border-radius: 6px;
@@ -75,217 +62,161 @@
     }
 
     .button.secondary {
-      background: #4b5563;
+      background: #444;
     }
 
-    .copy-box {
-      background: #f1f5f9;
-      border: 1px solid #cbd5e1;
-      padding: 0.75rem;
+    ul {
+      margin-left: 20px;
+    }
+
+    .note {
+      background: #f5f5f5;
+      padding: 15px;
       border-radius: 6px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 1rem;
-      margin-top: 0.5rem;
-    }
-
-    .copy-box code {
-      font-size: 0.95rem;
-      word-break: break-word;
-    }
-
-    button.copy {
-      background: #2563eb;
-      color: #fff;
-      border: none;
-      border-radius: 4px;
-      padding: 0.4rem 0.6rem;
-      cursor: pointer;
-    }
-
-    footer {
-      text-align: center;
-      font-size: 0.9rem;
-      color: #555;
-      padding: 1.5rem 1rem;
+      margin: 20px 0;
     }
   </style>
-
-  <script>
-    function copyMessage() {
-      const text = "I would like to help with the Richmond Airlift.";
-      navigator.clipboard.writeText(text).then(() => {
-        alert("Message copied to clipboard");
-      });
-    }
-  </script>
 </head>
-
 <body>
-  <header>
-    <h1>Richmond Airlift</h1>
-    <p>Helper Signup</p>
-    <img
-      src="https://media.defense.gov/2017/Mar/27/2001722653/1200/1200/0/170324-F-ZZ999-102.JPG"
-      alt="DC-4 aircraft"
-    />
-  </header>
 
-  <main>
-    <section>
-      <h2>Who We Are</h2>
-      <p>
-        Richmond Airlift is a small, community-based effort to help our neighbors
-        during a time of widespread uncertainty. You know what we are talking
-        about.
-      </p>
-      <p>
-        For many people, leaving the house right now feels unsafe and scary.
-        We help neighbors stay in their homes while still getting everyday
-        things done. This includes grocery and supply pickups, prescriptions,
-        walking dogs, shoveling snow, mowing grass, and other basic household
-        needs.
-      </p>
-      <p>
-        We keep groups intentionally small. When a group becomes too large,
-        new groups can be formed so coordination stays simple and safer for
-        everyone involved. If you think a new group is needed, contact an admin
-        to talk through how that can happen.
-      </p>
-      <p>
-        Neighbors are people requesting help. Helpers are people offering their
-        time and effort. We are doing this because our neighbors need support
-        and we are in a position to provide it.
-      </p>
-    </section>
+  <h1>Richmond Airlift</h1>
 
-    <section>
-      <h2>Tools</h2>
-      <p>
-        Helpers and neighbors communicate only through Signal.
-      </p>
-      <p>
-        Signal is an end-to-end encrypted messaging app that limits data
-        collection and reduces exposure of personal information. It is
-        available on iOS, Android, Windows, macOS, and Linux.
-      </p>
-      <p>
-        We will communicate in English as much as possible. Many neighbors may
-        not speak English or may not speak it comfortably. Helpers are strongly
-        encouraged to become familiar with a translation app so communication
-        remains clear and respectful.
-      </p>
-      <p>
-        Trust is essential. Only invite helpers who you trust completely and
-        whose household shares the same values around safety, discretion, and
-        respect. This is meant to stay quiet and low-profile. Do not share this
-        widely. Share it only with people you would trust without hesitation.
-      </p>
-    </section>
+  <div class="hero">
+    <img src="dc4.jpg" alt="C-54 / DC-4 aircraft" />
+    <div class="image-subheader">
+      C-54/DC-4 the plane used in the Berlin Airlift
+    </div>
+  </div>
 
-    <section>
-      <h2>Usernames</h2>
-      <p>
-        To make helpers easy to identify and to protect neighbors, we use a
-        consistent username format.
-      </p>
-      <p>
-        <strong>For this group, helper usernames must follow this format:</strong>
-      </p>
+  <h2>Who We Are</h2>
+
+  <p>
+    Richmond Airlift is a small, community focused effort to help our neighbors during a time of widespread uncertainty.
+    You all know what we are talking about. For many people right now, leaving the house is unsafe and scary.
+  </p>
+
+  <p>
+    The goal is simple. Neighbors ask for help with everyday but essential tasks like grocery pickup, pharmacy runs,
+    basic errands, or getting supplies. Helpers step in to quietly and safely make that happen.
+  </p>
+
+  <p>
+    We intentionally keep groups small. When a group starts getting too large, this setup allows us to create new groups
+    and keep things decentralized. If that becomes necessary, contact an admin and they will help guide you through how
+    to do that. We are doing this because our neighbors need support and we have the means to provide it.
+  </p>
+
+  <p>
+    We will try to communicate in English as much as possible, but many of our neighbors may not speak it.
+    It is a very good idea to get comfortable using a translator app on your phone when needed.
+  </p>
+
+  <h2>Tools</h2>
+
+  <p>
+    Helpers and neighbors communicate only through Signal. We use Signal because it is end to end encrypted,
+    minimizes data collection, and gives us tools to protect privacy and identities.
+  </p>
+
+  <p>
+    Signal can be used on:
+  </p>
+
+  <ul>
+    <li>iOS (iPhone)</li>
+    <li>Android</li>
+    <li>Windows desktop</li>
+    <li>macOS</li>
+    <li>Linux</li>
+  </ul>
+
+  <p>
+    Using one secure tool keeps communication simple, consistent, and safer for everyone involved.
+  </p>
+
+  <h2>Usernames</h2>
+
+  <p>
+    For this group, helpers must use a Signal username that clearly identifies them as a helper.
+    The format should be:
+  </p>
+
+  <div class="note">
+    <strong>the + a name of your choosing</strong><br />
+    Examples: <em>thealex</em>, <em>thejordan</em>, <em>thechris</em>
+  </div>
+
+  <p>
+    This ensures helpers are easily identifiable and helps prevent someone from presenting themselves as a helper
+    when they should not be. Everyone should stay alert and pay attention to who is joining the group.
+    If something feels off, raise it.
+  </p>
+
+  <p>
+    When inviting new helpers, it is critically important that they and their households share the same values we do.
+    This effort only works if neighbors are safe. Share this only with people you absolutely trust.
+    The point is to fly below the radar, not to spread this far and wide.
+  </p>
+
+  <h3>Setting Up Signal</h3>
+
+  <ul>
+    <li>Download Signal:
       <ul>
-        <li><code>the</code> + a name of your choosing</li>
-        <li>You may use your real name or a chosen name</li>
-        <li>Examples: <code>theAlex</code>, <code>theRiver</code>,
-          <code>theJordan</code></li>
+        <li><a href="https://signal.org/download/" target="_blank">https://signal.org/download/</a></li>
+        <li>Available on the iOS App Store and Google Play Store</li>
       </ul>
-      <p>
-        This makes it clear who is a helper and helps prevent someone from
-        presenting themselves as a helper when they should not be. Everyone
-        should remain alert and speak up if something feels wrong.
-      </p>
+    </li>
+    <li>Sign up using your phone number</li>
+    <li>Go to Signal Settings and set your username using the format above</li>
+    <li>In Privacy settings, enable options so others see your username instead of your phone number</li>
+  </ul>
 
-      <h3>Setting Up Signal</h3>
-      <ol>
-        <li>
-          Download Signal from
-          <a href="https://signal.org/download/" target="_blank">signal.org/download</a>
-          or your app store.
-        </li>
-        <li>
-          Create your account using your phone number. You do not need to share
-          this number with others.
-        </li>
-        <li>
-          Set your username under Settings, then Profile, then Username.
-        </li>
-        <li>
-          Adjust privacy settings so people see your username and not your phone
-          number.
-        </li>
-        <li>
-          When sharing your contact link, generate the link inside the Signal
-          app and use that link.
-        </li>
-      </ol>
-    </section>
+  <h2>Task Process</h2>
 
-    <section>
-      <h2>Task Process</h2>
-      <ol>
-        <li>
-          A neighbor posts a request using a shared template. No identifying
-          information is included.
-        </li>
-        <li>
-          A helper reacts with an emoji to show they are taking the task.
-        </li>
-        <li>
-          The helper starts a direct message with the neighbor.
-        </li>
-        <li>
-          In the direct message, set disappearing messages to one week using the
-          chat settings in Signal.
-        </li>
-        <li>
-          Only after that are details like addresses or lists shared.
-        </li>
-        <li>
-          The helper completes the task so the neighbor can remain safe at home.
-        </li>
-      </ol>
-    </section>
+  <p>
+    A neighbor will post a request in the group using a simple template describing what they need.
+    No identifying information is included at this stage.
+  </p>
 
-    <section>
-      <h2>Become a Helper</h2>
-      <p>
-        To be added as a helper, message all of our admins using the buttons
-        below. Please click each button and send the message to every admin so
-        your request is seen as quickly as possible.
-      </p>
+  <p>
+    A helper signals their intention to take the task using an emoji reaction.
+    That helper then starts a direct message with the neighbor.
+  </p>
 
-      <div class="copy-box">
-        <code>I would like to help with the Richmond Airlift.</code>
-        <button class="copy" onclick="copyMessage()">Copy</button>
-      </div>
+  <p>
+    Only in the direct message are details discussed.
+    Addresses or identifying information are shared only at that point.
+    Once the task is complete, the neighbor is safe and supported.
+  </p>
 
-      <div class="buttons">
-        <!-- Replace with Signal-generated links -->
-        <a class="button" href="#">
-          Message Admin 1 on Signal
-        </a>
-        <a class="button secondary" href="#">
-          Message Admin 2 on Signal
-        </a>
-        <a class="button secondary" href="#">
-          Message Admin 3 on Signal
-        </a>
-      </div>
-    </section>
-  </main>
+  <p>
+    Helpers are strongly encouraged to enable disappearing messages when speaking with a neighbor.
+    This reduces long term data exposure and helps protect everyone involved.
+  </p>
 
-  <footer>
-    Richmond Airlift
-  </footer>
+  <h2>Become a Helper</h2>
+
+  <p>
+    To be added as a helper, message all of our admins using the buttons below.
+    Please click each button and send the message to each admin so your request is seen as quickly as possible.
+  </p>
+
+  <p>
+    You can copy and paste this message:
+    <br />
+    <em>"I would like to help with the Richmond Airlift."</em>
+  </p>
+
+  <div class="button-group">
+    <a class="button secondary" href="https://signal.me/#p/+15032988866">
+      Message Admin 1 on Signal
+    </a>
+
+    <a class="button secondary" href="https://signal.me/#p/REPLACE_WITH_ADMIN_INVITE_LINK">
+      Message Admin 2 on Signal
+    </a>
+  </div>
+
 </body>
 </html>
