@@ -1,351 +1,615 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Richmond Airlift | Welcome</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Richmond Airlift</title>
   <style>
     body {
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      line-height: 1.6;
-      color: #111;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
       max-width: 900px;
-      margin: 0 auto;
+      margin: 40px auto;
       padding: 20px;
+      line-height: 1.6;
+      color: #1a1a1a;
     }
-
+    h1, h2, h3 {
+      margin-top: 32px;
+    }
     h1 {
-      margin-bottom: 0.25em;
+      font-size: 2rem;
     }
-
-    h2 {
-      margin-top: 2em;
+    .box {
+      margin-top: 24px;
+      padding: 20px;
+      background: #f5f7fa;
+      border-radius: 12px;
     }
-
-    p {
-      margin: 1em 0;
+    .button {
+      display: block;
+      text-align: center;
+      padding: 15px;
+      margin: 12px 0;
+      background: #3a76f0;
+      color: white;
+      text-decoration: none;
+      border-radius: 10px;
+      font-weight: 600;
     }
-
+    .button.secondary { background: #4f86f7; }
+    .button.tertiary { background: #6b98f8; }
+    .copy-button {
+      display: inline-block;
+      margin-top: 8px;
+      padding: 10px 14px;
+      background: #2d3748;
+      color: white;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 0.95rem;
+      border: none;
+    }
+    .copy-status {
+      margin-left: 10px;
+      font-size: 0.9rem;
+      color: #2f855a;
+      display: none;
+    }
+    .language-block {
+      margin-top: 16px;
+      padding: 16px;
+      background: #ffffff;
+      border: 1px solid #e0e0e0;
+      border-radius: 10px;
+    }
     .hero {
       margin: 30px 0;
       text-align: center;
     }
-
     .hero img {
       max-width: 100%;
       border-radius: 8px;
     }
-
     .image-subheader {
       font-size: 0.85em;
       color: #555;
       margin-top: 6px;
     }
-
-    .note {
-      background: #f5f5f5;
-      padding: 15px;
-      border-radius: 6px;
-      margin: 20px 0;
+    a {
+      color: #3a76f0;
     }
-
-    .section {
-      margin-top: 1.5em;
+    strong {
+      font-weight: 600;
     }
-
-    .template {
-      margin: 10px 0;
-      padding: 15px;
-      border-radius: 6px;
-      background: #f9f9f9;
-    }
-
-    .template code {
-      display: block;
-      white-space: pre-wrap;
+    ol {
+      margin-top: 0;
     }
   </style>
 </head>
 <body>
 
-  <h1>Richmond Airlift</h1>
+<h1>Welcome to the Richmond Airlift</h1>
 
-  <div class="hero">
-    <img src="https://media.defense.gov/2017/Mar/27/2001722653/1200/1200/0/170324-F-ZZ999-102.JPG" alt="C-54 / DC-4 aircraft" />
-    <div class="image-subheader">
-      C-54/DC-4 the plane used in the Berlin Airlift
-    </div>
+<div class="hero">
+  <img src="https://media.defense.gov/2017/Mar/27/2001722653/1200/1200/0/170324-F-ZZ999-102.JPG" alt="C-54 / DC-4 aircraft" />
+  <div class="image-subheader">
+    C-54/DC-4 the plane used in the Berlin Airlift
   </div>
+</div>
 
+<div class="box">
   <h2>Purpose of This Page</h2>
 
-  <div class="section">
-    <p>
-      This page exists to provide support during a time of widespread uncertainty. You all know what we are talking about. Many things are changing quickly, and for some people, leaving their home feels unsafe and scary.
-    </p>
+  <p>
+    The Richmond Airlift is a community-run effort created to provide support
+    during a time of widespread uncertainty.
+  </p>
 
-    <p>
-      You are our neighbors, and we want to help. This page provides a way for neighbors who do not feel safe leaving their homes to ask for help with everyday tasks. These can include picking up groceries or supplies, walking dogs, helping with house or yard work like shoveling snow or mowing grass, and other practical tasks that help you stay safely at home.
-    </p>
+  <p>
+    This site is a starting point for connecting neighbors who need help with
+    everyday tasks to a trusted group of helpers.
+  </p>
 
+  <div class="language-block">
+    <strong>Español</strong>
     <p>
-      This group is intentionally small and local. Keeping things this way helps protect everyone involved. If the group grows too large, additional groups can be created to keep things decentralized and discreet. If you are ever unsure how this works, you can contact an admin for guidance. We are doing this because our neighbors need support, and we want to help.
+      Richmond Airlift es un esfuerzo comunitario creado para brindar apoyo durante un período de gran incertidumbre.
+    </p>
+    <p>
+      Este sitio es un punto de partida para conectar a vecinos que necesitan ayuda con tareas cotidianas con un grupo de helpers de confianza.
     </p>
   </div>
 
-  <h2>How to Make a Request</h2>
-
-  <div class="section">
+  <div class="language-block">
+    <strong>Português (Brasil)</strong>
     <p>
-      1. Using the request template below, post your request in the Signal group. Do not share personal information beyond your first name.
+      Richmond Airlift é um esforço comunitário criado para oferecer apoio durante um período de grande incerteza.
     </p>
     <p>
-      2. A helper will indicate they are taking your request by reacting with an emoji and will then send you a direct message. Helpers only communicate using approved helper usernames.
-    </p>
-    <p>
-      3. In the direct message, we recommend setting disappearing messages to one week to reduce retained information.
-    </p>
-    <p>
-      4. Once you have confirmed you are speaking with a verified helper, you may share the specific details of your request. This includes lists, timing, and your final location once you feel safe doing so.
+      Este site é um ponto de partida para conectar vizinhos que precisam de ajuda com tarefas diárias a um grupo de helpers confiáveis.
     </p>
   </div>
 
-  <div class="template">
-    <strong>Request Template</strong>
-    <code>
-- First name only (no last names):
-- Task:
-- General area (no exact address):
-- Able to pay (if applicable):
-- Payment method (if applicable):
-- Date the task needs to be completed:
-    </code>
+  <div class="language-block">
+    <strong>Français</strong>
     <p>
-      Please fill out requests in English if possible, as most helpers communicate in English.
+      Richmond Airlift est une initiative communautaire créée pour apporter du soutien en période d’incertitude généralisée.
+    </p>
+    <p>
+      Ce site est un point de départ pour connecter des voisins qui ont besoin d’aide pour des tâches quotidiennes à un groupe d’aides de confiance.
     </p>
   </div>
 
-  <h2>Usernames and Safety</h2>
-
-  <div class="section">
+  <div class="language-block">
+    <strong>Deutsch</strong>
     <p>
-      For this group, helpers use Signal usernames that follow a specific format:
+      Richmond Airlift ist eine gemeinschaftliche Initiative, die geschaffen wurde, um Unterstützung in einer Zeit großer Unsicherheit zu bieten.
     </p>
-
-    <div class="note">
-      <strong>the + name</strong>
-    </div>
-
     <p>
-      The word “the” must always appear exactly as written, followed by a name of your choosing. The name itself may be in English or another language.
+      Diese Seite ist ein Ausgangspunkt, um Nachbarn, die Hilfe bei alltäglichen Aufgaben benötigen, mit einer vertrauenswürdigen Gruppe von Helfern zu verbinden.
     </p>
+  </div>
+</div>
 
+<div class="box">
+  <h2>What Is the Signal Group?</h2>
+
+  <p>
+    The Richmond Airlift Signal group is a private, moderated group where neighbors can request help and coordinate assistance.
+  </p>
+
+  <p>
+    We use Signal because it is a reliable, widely available messaging app that prioritizes privacy and security.
+    It allows us to communicate clearly while minimizing unnecessary data sharing.
+  </p>
+
+  <p>
+    If you do not already have Signal installed, you can download it here:
+    <br>
+    <a href="https://signal.org/download/" target="_blank" rel="noopener">
+      https://signal.org/download/
+    </a>
+  </p>
+
+  <div class="language-block">
+    <strong>Español</strong>
     <p>
-      This format makes helpers easy to identify and helps prevent someone from presenting themselves as a helper when they are not approved. Neighbors should not use this format. Using it without approval may result in being removed or blocked from the group.
+      El grupo de Signal de Richmond Airlift es un grupo privado y moderado donde los vecinos pueden solicitar ayuda y coordinar asistencia.
     </p>
-
     <p>
-      Do not share personal information with anyone in this group unless you personally know them or they are a verified helper. If someone contacts you claiming to be a helper but their username does not begin with “the”, do not engage and notify an admin.
+      Usamos Signal porque es una aplicación de mensajería confiable y ampliamente disponible que prioriza la privacidad y la seguridad. Nos permite comunicarnos con claridad mientras minimiza el intercambio innecesario de datos.
     </p>
-
     <p>
-      Helpers and neighbors communicate only through Signal. Signal is used because it offers strong privacy protections and supports disappearing messages.
+      Si aún no tiene Signal instalado, puede descargarlo aquí:
+      <br>
+      signal.org/download
     </p>
   </div>
 
-  <h2>Translations</h2>
+  <div class="language-block">
+    <strong>Português (Brasil)</strong>
+    <p>
+      O grupo do Signal do Richmond Airlift é um grupo privado e moderado onde os vizinhos podem solicitar ajuda e coordenar assistência.
+    </p>
+    <p>
+      Usamos o Signal porque é um aplicativo de mensagens confiável e amplamente disponível que prioriza a privacidade e a segurança. Ele nos permite nos comunicar claramente, minimizando o compartilhamento desnecessário de dados.
+    </p>
+    <p>
+      Se você ainda não instalou o Signal, pode baixá-lo aqui:
+      <br>
+      signal.org/download
+    </p>
+  </div>
 
-  <div class="section">
-    <h3>Español</h3>
+  <div class="language-block">
+    <strong>Français</strong>
+    <p>
+      Le groupe Signal de Richmond Airlift est un groupe privé et modéré où les voisins peuvent demander de l’aide et coordonner une assistance.
+    </p>
+    <p>
+      Nous utilisons Signal car c’est une application de messagerie fiable et largement disponible qui privilégie la confidentialité et la sécurité. Elle nous permet de communiquer clairement tout en minimisant le partage de données inutiles.
+    </p>
+    <p>
+      Si vous n’avez pas encore installé Signal, vous pouvez le télécharger ici:
+      <br>
+      signal.org/download
+    </p>
+  </div>
 
+  <div class="language-block">
+    <strong>Deutsch</strong>
     <p>
-      Esta página existe para brindar apoyo durante un período de gran incertidumbre. Ustedes saben exactamente a qué nos referimos. Muchas cosas están cambiando rápidamente, y para algunas personas salir de casa se siente inseguro y aterrador.
+      Die Richmond Airlift Signal-Gruppe ist eine private, moderierte Gruppe, in der Nachbarn um Hilfe bitten und Unterstützung koordinieren können.
     </p>
+    <p>
+      Wir verwenden Signal, weil es eine zuverlässige und weit verbreitete Messaging-App ist, die Datenschutz und Sicherheit priorisiert. Es ermöglicht uns, klar zu kommunizieren und gleichzeitig unnötige Datenweitergabe zu minimieren.
+    </p>
+    <p>
+      Wenn Sie Signal noch nicht installiert haben, können Sie es hier herunterladen:
+      <br>
+      signal.org/download
+    </p>
+  </div>
+</div>
 
-    <p>
-      Ustedes son nuestros vecinos y queremos ayudar. Esta página ofrece una forma para que vecinos que no se sienten seguros saliendo de sus hogares puedan pedir ayuda con tareas cotidianas. Esto incluye recoger alimentos o suministros, pasear perros, ayudar con trabajos del hogar o del jardín como palear nieve o cortar el césped, y otras tareas prácticas que les permitan permanecer seguros en casa.
-    </p>
+<div class="box">
+  <h2>Protecting Your Privacy on Signal</h2>
 
-    <p>
-      Este grupo es intencionalmente pequeño y local. Mantenerlo así ayuda a proteger a todos los involucrados. Si el grupo crece demasiado, se pueden crear grupos adicionales para mantener todo descentralizado y discreto. Si tienes dudas, puedes contactar a un administrador. Hacemos esto porque nuestros vecinos necesitan apoyo y queremos ayudar.
-    </p>
+  <p>
+    Your privacy and safety matter to us. Signal allows you to participate in group conversations without using your real name and without sharing your phone number with others.
+  </p>
 
-    <p>
-      1. Usando la plantilla a continuación, publica tu solicitud en el grupo de Signal. No compartas información personal más allá de tu nombre.
-    </p>
-    <p>
-      2. Un helper indicará que toma tu solicitud con un emoji y luego te enviará un mensaje directo. Los helpers solo se comunican usando nombres de usuario aprobados.
-    </p>
-    <p>
-      3. En el mensaje directo, recomendamos configurar mensajes que desaparecen por una semana para reducir la información retenida.
-    </p>
-    <p>
-      4. Una vez que confirmes que estás hablando con un helper verificado, puedes compartir los detalles específicos de tu solicitud. Esto incluye listas, horarios y tu ubicación final una vez que te sientas seguro de hacerlo.
-    </p>
+  <p>
+    We strongly recommend taking the steps below before messaging the admins or joining the group.
+  </p>
 
+  <h3>Set a Signal Username</h3>
+  <p>
+    A username lets you communicate on Signal without sharing your phone number. Once enabled, people can contact you using your username instead of your number.
+  </p>
+  <p>
+    You can use any name you want, including a nickname or pseudonym.
+  </p>
+  <p>
+    Signal is available on iOS, Android, Windows Desktop, macOS, and Linux.
+  </p>
+
+  <h3>Hide Your Phone Number</h3>
+  <p>
+    Signal allows you to control who can see your phone number. We recommend hiding it completely.
+  </p>
+
+  <h3>Why We Recommend This</h3>
+  <p>
+    These steps help protect your identity by limiting what personal information is visible to others. They reduce the risk of unwanted contact and make it easier to participate safely and comfortably.
+  </p>
+
+  <p>
+    You do not need to use your real name on Signal. A first name, nickname, or pseudonym is sufficient.
+  </p>
+
+  <div class="language-block">
+    <strong>Español</strong>
     <p>
-      Para este grupo, los helpers usan nombres de usuario de Signal que siguen un formato específico:
+      Su privacidad y seguridad son importantes para nosotros. Signal le permite participar en conversaciones grupales sin usar su nombre real y sin compartir su número de teléfono con otras personas.
     </p>
-    <div class="note">
+    <p>
+      Recomendamos encarecidamente seguir los pasos a continuación antes de enviar mensajes a los administradores o unirse al grupo.
+    </p>
+    <p>
+      <strong>Configurar un nombre de usuario en Signal</strong>
+    </p>
+    <p>
+      Un nombre de usuario le permite comunicarse en Signal sin compartir su número de teléfono. Una vez activado, las personas pueden contactarlo usando su nombre de usuario en lugar de su número.
+    </p>
+    <p>
+      Puede usar cualquier nombre que desee, incluyendo un apodo o seudónimo.
+    </p>
+    <p>
+      Signal está disponible en iOS, Android, Windows Desktop, macOS y Linux.
+    </p>
+    <p>
+      <strong>Ocultar su número de teléfono</strong>
+    </p>
+    <p>
+      Signal le permite controlar quién puede ver su número de teléfono. Recomendamos ocultarlo completamente.
+    </p>
+    <p>
+      <strong>Por qué recomendamos esto</strong>
+    </p>
+    <p>
+      Estos pasos ayudan a proteger su identidad al limitar la información personal visible para otros. Reducen el riesgo de contactos no deseados y facilitan la participación de manera segura y cómoda.
+    </p>
+    <p>
+      No necesita usar su nombre real en Signal. Un primer nombre, apodo o seudónimo es suficiente.
+    </p>
+  </div>
+
+  <div class="language-block">
+    <strong>Português (Brasil)</strong>
+    <p>
+      Sua privacidade e segurança são importantes para nós. O Signal permite que você participe de conversas em grupo sem usar seu nome real e sem compartilhar seu número de telefone com outras pessoas.
+    </p>
+    <p>
+      Recomendamos fortemente seguir os passos abaixo antes de enviar mensagens aos administradores ou entrar no grupo.
+    </p>
+    <p>
+      <strong>Definir um nome de usuário no Signal</strong>
+    </p>
+    <p>
+      Um nome de usuário permite que você se comunique no Signal sem compartilhar seu número de telefone. Depois de habilitado, as pessoas podem contatá-lo usando seu nome de usuário em vez do seu número.
+    </p>
+    <p>
+      Você pode usar qualquer nome que quiser, incluindo um apelido ou pseudônimo.
+    </p>
+    <p>
+      O Signal está disponível no iOS, Android, Windows Desktop, macOS e Linux.
+    </p>
+    <p>
+      <strong>Ocultar seu número de telefone</strong>
+    </p>
+    <p>
+      O Signal permite que você controle quem pode ver seu número de telefone. Recomendamos ocultá-lo completamente.
+    </p>
+    <p>
+      <strong>Por que recomendamos isso</strong>
+    </p>
+    <p>
+      Esses passos ajudam a proteger sua identidade, limitando quais informações pessoais são visíveis para outras pessoas. Eles reduzem o risco de contato indesejado e tornam mais fácil participar com segurança e conforto.
+    </p>
+    <p>
+      Você não precisa usar seu nome real no Signal. Um primeiro nome, apelido ou pseudônimo é suficiente.
+    </p>
+  </div>
+
+  <div class="language-block">
+    <strong>Français</strong>
+    <p>
+      Votre confidentialité et votre sécurité sont importantes pour nous. Signal vous permet de participer à des conversations de groupe sans utiliser votre vrai nom et sans partager votre numéro de téléphone avec les autres.
+    </p>
+    <p>
+      Nous recommandons fortement de suivre les étapes ci-dessous avant d’envoyer un message aux administrateurs ou de rejoindre le groupe.
+    </p>
+    <p>
+      <strong>Définir un nom d’utilisateur Signal</strong>
+    </p>
+    <p>
+      Un nom d’utilisateur vous permet de communiquer sur Signal sans partager votre numéro de téléphone. Une fois activé, les gens peuvent vous contacter via votre nom d’utilisateur plutôt que votre numéro.
+    </p>
+    <p>
+      Vous pouvez utiliser n’importe quel nom, y compris un surnom ou un pseudonyme.
+    </p>
+    <p>
+      Signal est disponible sur iOS, Android, Windows Desktop, macOS et Linux.
+    </p>
+    <p>
+      <strong>Masquer votre numéro de téléphone</strong>
+    </p>
+    <p>
+      Signal vous permet de contrôler qui peut voir votre numéro de téléphone. Nous recommandons de le masquer complètement.
+    </p>
+    <p>
+      <strong>Pourquoi nous recommandons cela</strong>
+    </p>
+    <p>
+      Ces étapes aident à protéger votre identité en limitant les informations personnelles visibles aux autres. Elles réduisent le risque de contacts indésirables et facilitent une participation sûre et confortable.
+    </p>
+    <p>
+      Vous n’avez pas besoin d’utiliser votre vrai nom sur Signal. Un prénom, un surnom ou un pseudonyme suffit.
+    </p>
+  </div>
+
+  <div class="language-block">
+    <strong>Deutsch</strong>
+    <p>
+      Ihre Privatsphäre und Sicherheit sind uns wichtig. Signal ermöglicht es Ihnen, an Gruppengesprächen teilzunehmen, ohne Ihren echten Namen zu verwenden und ohne Ihre Telefonnummer mit anderen zu teilen.
+    </p>
+    <p>
+      Wir empfehlen dringend, die folgenden Schritte zu befolgen, bevor Sie den Admins eine Nachricht senden oder der Gruppe beitreten.
+    </p>
+    <p>
+      <strong>Signal-Benutzernamen festlegen</strong>
+    </p>
+    <p>
+      Ein Benutzername ermöglicht es Ihnen, auf Signal zu kommunizieren, ohne Ihre Telefonnummer zu teilen. Sobald er aktiviert ist, können Sie von anderen über Ihren Benutzernamen kontaktiert werden, anstatt über Ihre Nummer.
+    </p>
+    <p>
+      Sie können jeden Namen verwenden, einschließlich Spitznamen oder Pseudonym.
+    </p>
+    <p>
+      Signal ist verfügbar auf iOS, Android, Windows Desktop, macOS und Linux.
+    </p>
+    <p>
+      <strong>Ihre Telefonnummer verbergen</strong>
+    </p>
+    <p>
+      Signal ermöglicht es Ihnen zu kontrollieren, wer Ihre Telefonnummer sehen kann. Wir empfehlen, sie vollständig zu verbergen.
+    </p>
+    <p>
+      <strong>Warum wir das empfehlen</strong>
+    </p>
+    <p>
+      Diese Schritte helfen, Ihre Identität zu schützen, indem sie begrenzen, welche persönlichen Informationen für andere sichtbar sind. Sie reduzieren das Risiko unerwünschter Kontakte und machen es einfacher, sicher und komfortabel teilzunehmen.
+    </p>
+    <p>
+      Sie müssen Ihren echten Namen auf Signal nicht verwenden. Ein Vorname, Spitzname oder Pseudonym ist ausreichend.
+    </p>
+  </div>
+</div>
+
+<div class="box">
+  <h2>Request Access</h2>
+
+  <p>
+    To request access, message all three admins using the buttons below. This helps ensure your request is seen as quickly as possible.
+  </p>
+
+  <p><strong>Message to send:</strong></p>
+  <p id="request-message">
+    Please add me to this Richmond Airlift Signal group
+  </p>
+
+  <button class="copy-button" onclick="copyMessage()">
+    Copy message
+  </button>
+  <span id="copy-status" class="copy-status">Copied ✓</span>
+
+  <a class="button" href="https://signal.me/#p/+15032988866">
+    Message Admin 1 via Phone Number
+  </a>
+
+  <a class="button secondary" href="https://signal.me/#p/+15550000003">
+    Message Admin 2 via Phone Number
+  </a>
+
+  <a class="button tertiary" href="https://signal.me/#eu/hH8h5GJcVVSkMJG_qaCRKptwSRFJlXpR9BnHBbgFBjLuXF8kru5I-IVLVSKH6-v9">
+    Message Admin 3 via Signal Link
+  </a>
+
+  <div class="language-block">
+    <strong>Español</strong>
+    <p>
+      Para solicitar acceso, envíe un mensaje a los tres administradores usando los botones de abajo. Esto ayuda a asegurar que su solicitud sea vista lo más rápido posible.
+    </p>
+    <p><strong>Mensaje para enviar:</strong></p>
+    <p>
+      Por favor agréguenme a este grupo de Signal de Richmond Airlift
+    </p>
+  </div>
+
+  <div class="language-block">
+    <strong>Português (Brasil)</strong>
+    <p>
+      Para solicitar acesso, envie uma mensagem para os três administradores usando os botões abaixo. Isso ajuda a garantir que seu pedido seja visto o mais rápido possível.
+    </p>
+    <p><strong>Mensagem para enviar:</strong></p>
+    <p>
+      Por favor, me adicione a este grupo do Signal Richmond Airlift
+    </p>
+  </div>
+
+  <div class="language-block">
+    <strong>Français</strong>
+    <p>
+      Pour demander l’accès, envoyez un message aux trois administrateurs à l’aide des boutons ci-dessous. Cela permet de s’assurer que votre demande soit vue le plus rapidement possible.
+    </p>
+    <p><strong>Message à envoyer :</strong></p>
+    <p>
+      Veuillez m’ajouter à ce groupe Signal Richmond Airlift
+    </p>
+  </div>
+
+  <div class="language-block">
+    <strong>Deutsch</strong>
+    <p>
+      Um Zugriff anzufordern, senden Sie bitte eine Nachricht an alle drei Administratoren über die untenstehenden Schaltflächen. So wird sichergestellt, dass Ihre Anfrage so schnell wie möglich gesehen wird.
+    </p>
+    <p><strong>Nachricht zum Senden:</strong></p>
+    <p>
+      Bitte fügen Sie mich zu dieser Richmond Airlift Signal-Gruppe hinzu
+    </p>
+  </div>
+</div>
+
+<div class="box">
+  <h2>Important Neighbor Safety Notes</h2>
+
+  <p>
+    Helpers will communicate only through Signal.
+  </p>
+
+  <p>
+    Do not share personal information with anyone in the group unless you personally know them or they are a verified helper.
+  </p>
+
+  <p>
+    Helper usernames always follow this format:
+    <br>
+    <strong>the + name</strong>
+  </p>
+
+  <p>
+    Neighbors should not use this format. If you use it without approval, you may be removed or blocked.
+  </p>
+
+  <p>
+    If someone contacts you claiming to be a helper but their username does not begin with “the,” do not engage and notify an admin.
+  </p>
+
+  <div class="language-block">
+    <strong>Español</strong>
+    <p>
+      Los helpers solo se comunicarán a través de Signal.
+    </p>
+    <p>
+      No comparta información personal con nadie en el grupo a menos que lo conozca personalmente o sea un helper verificado.
+    </p>
+    <p>
+      Los nombres de usuario de los helpers siguen siempre este formato:
+      <br>
       <strong>the + nombre</strong>
-    </div>
-
-    <p>
-      La palabra “the” debe aparecer exactamente así, seguida de un nombre de tu elección. El nombre puede estar en cualquier idioma.
     </p>
-
     <p>
-      Este formato ayuda a identificar a los helpers aprobados. Los vecinos no deben usar este formato. Usarlo sin aprobación puede resultar en eliminación o bloqueo.
+      Los vecinos no deben usar este formato. Si lo usa sin aprobación, puede ser eliminado o bloqueado.
     </p>
-
     <p>
-      No compartas información personal con nadie en este grupo a menos que lo conozcas personalmente o sea un helper verificado. Si alguien dice ser helper pero su nombre de usuario no empieza con “the”, no continúes y avisa a un administrador.
+      Si alguien le contacta diciendo que es un helper pero su nombre de usuario no comienza con “the”, no responda y notifique a un administrador.
     </p>
   </div>
 
-  <div class="section">
-    <h3>Português (Brasil)</h3>
-
+  <div class="language-block">
+    <strong>Português (Brasil)</strong>
     <p>
-      Esta página existe para oferecer apoio durante um período de grande incerteza. Vocês sabem exatamente do que estamos falando. Muitas coisas estão mudando rapidamente, e para algumas pessoas sair de casa parece inseguro e assustador.
-    </p>
-
-    <p>
-      Vocês são nossos vizinhos e queremos ajudar. Esta página oferece uma forma para vizinhos que não se sentem seguros ao sair de casa pedirem ajuda com tarefas do dia a dia. Isso inclui buscar mantimentos ou suprimentos, passear com cães, ajudar com tarefas domésticas ou do quintal como remover neve ou cortar grama, e outras tarefas práticas que ajudam a permanecer em casa com segurança.
-    </p>
-
-    <p>
-      Este grupo é intencionalmente pequeno e local. Manter assim ajuda a proteger todos os envolvidos. Se o grupo crescer demais, novos grupos podem ser criados para manter tudo descentralizado e discreto. Se tiver dúvidas, entre em contato com um administrador. Fazemos isso porque nossos vizinhos precisam de apoio e queremos ajudar.
-    </p>
-
-    <p>
-      1. Usando o modelo abaixo, publique sua solicitação no grupo do Signal. Não compartilhe informações pessoais além do seu primeiro nome.
+      Os helpers se comunicarão apenas via Signal.
     </p>
     <p>
-      2. Um helper indicará que está assumindo sua solicitação com um emoji e depois enviará uma mensagem direta. Helpers só se comunicam usando nomes de usuário aprovados.
+      Não compartilhe informações pessoais com ninguém no grupo, a menos que você conheça pessoalmente ou que seja um helper verificado.
     </p>
     <p>
-      3. Na mensagem direta, recomendamos configurar mensagens que desaparecem por uma semana para reduzir a informação retida.
-    </p>
-    <p>
-      4. Depois de confirmar que está falando com um helper verificado, você pode compartilhar os detalhes específicos da sua solicitação. Isso inclui listas, horários e sua localização final quando você se sentir seguro para fazê-lo.
-    </p>
-
-    <p>
-      Para este grupo, os helpers usam nomes de usuário do Signal que seguem um formato específico:
-    </p>
-    <div class="note">
+      Os nomes de usuário dos helpers seguem sempre este formato:
+      <br>
       <strong>the + nome</strong>
-    </div>
-
-    <p>
-      A palavra “the” deve aparecer exatamente assim, seguida por um nome de sua escolha. O nome pode estar em qualquer idioma.
     </p>
-
     <p>
-      Esse formato ajuda a identificar helpers aprovados. Vizinhos não devem usar esse formato. Usá-lo sem aprovação pode resultar em remoção ou bloqueio.
+      Vizinhos não devem usar esse formato. Se você usar sem aprovação, pode ser removido ou bloqueado.
     </p>
-
     <p>
-      Não compartilhe informações pessoais com ninguém neste grupo, a menos que você conheça a pessoa ou ela seja um helper verificado. Se alguém afirmar ser helper mas o nome de usuário não começar com “the”, não continue e avise um administrador.
+      Se alguém entrar em contato dizendo que é um helper, mas seu nome de usuário não começar com “the”, não interaja e avise um administrador.
     </p>
   </div>
 
-  <div class="section">
-    <h3>Français</h3>
-
+  <div class="language-block">
+    <strong>Français</strong>
     <p>
-      Cette page existe pour offrir du soutien pendant une période d’incertitude généralisée. Vous savez exactement de quoi nous parlons. Beaucoup de choses changent rapidement, et pour certaines personnes, sortir de chez soi est dangereux et effrayant.
-    </p>
-
-    <p>
-      Vous êtes nos voisins et nous voulons vous aider. Cette page permet aux voisins qui ne se sentent pas en sécurité à l’idée de sortir de chez eux de demander de l’aide pour des tâches quotidiennes. Cela inclut les courses, la récupération de fournitures, la promenade de chiens, ou des travaux domestiques ou extérieurs comme déneiger ou tondre la pelouse.
-    </p>
-
-    <p>
-      Ce groupe est volontairement petit et local. Cela aide à protéger toutes les personnes concernées. Si le groupe devient trop grand, d’autres groupes peuvent être créés afin de rester décentralisés et discrets. En cas de doute, vous pouvez contacter un administrateur. Nous faisons cela parce que nos voisins ont besoin de soutien et que nous voulons aider.
-    </p>
-
-    <p>
-      1. En utilisant le modèle ci-dessous, publiez votre demande dans le groupe Signal. Ne partagez pas d’informations personnelles au-delà de votre prénom.
+      Les helpers communiqueront uniquement via Signal.
     </p>
     <p>
-      2. Un helper indiquera qu’il prend votre demande avec un emoji et vous enverra ensuite un message privé. Les helpers ne communiquent qu’en utilisant des noms d’utilisateur approuvés.
+      Ne partagez pas d’informations personnelles avec quelqu’un dans le groupe, sauf si vous le connaissez personnellement ou s’il est un helper vérifié.
     </p>
     <p>
-      3. Dans le message privé, nous recommandons d’activer les messages éphémères pour une semaine afin de réduire les informations conservées.
-    </p>
-    <p>
-      4. Une fois que vous avez confirmé que vous parlez à un helper vérifié, vous pouvez partager les détails spécifiques de votre demande. Cela comprend les listes, les horaires et votre adresse finale lorsque vous vous sentez en sécurité pour le faire.
-    </p>
-
-    <p>
-      Pour ce groupe, les helpers utilisent des noms d’utilisateur Signal qui suivent un format spécifique:
-    </p>
-    <div class="note">
+      Les noms d’utilisateur des helpers suivent toujours ce format :
+      <br>
       <strong>the + nom</strong>
-    </div>
-
-    <p>
-      Le mot “the” doit apparaître exactement ainsi, suivi d’un nom de votre choix. Le nom peut être dans n’importe quelle langue.
     </p>
-
     <p>
-      Ce format aide à identifier les helpers approuvés. Les voisins ne doivent pas utiliser ce format. L’utiliser sans autorisation peut entraîner une suppression ou un blocage.
+      Les voisins ne doivent pas utiliser ce format. Si vous l’utilisez sans approbation, vous pouvez être retiré ou bloqué.
     </p>
-
     <p>
-      Ne partagez pas d’informations personnelles avec quelqu’un dans ce groupe à moins que vous ne le connaissiez personnellement ou qu’il soit un helper vérifié. Si quelqu’un prétend être helper mais que son nom d’utilisateur ne commence pas par “the”, ne poursuivez pas et contactez un administrateur.
+      Si quelqu’un vous contacte en prétendant être un helper mais que son nom d’utilisateur ne commence pas par “the”, ne répondez pas et informez un admin.
     </p>
   </div>
 
-  <div class="section">
-    <h3>Deutsch</h3>
-
+  <div class="language-block">
+    <strong>Deutsch</strong>
     <p>
-      Diese Seite dient dazu, Unterstützung in einer Zeit großer Unsicherheit anzubieten. Ihr wisst genau, wovon wir sprechen. Viele Dinge ändern sich schnell, und für manche Menschen fühlt es sich unsicher und beängstigend an, das Haus zu verlassen.
-    </p>
-
-    <p>
-      Ihr seid unsere Nachbarn, und wir möchten helfen. Diese Seite bietet Nachbarn, die sich nicht sicher fühlen, ihr Zuhause zu verlassen, eine Möglichkeit, Hilfe bei alltäglichen Aufgaben zu erhalten. Dazu gehören Einkäufe, das Besorgen von Vorräten, das Gassigehen mit Hunden sowie Haus- oder Gartenarbeiten wie Schneeschaufeln oder Rasenmähen.
-    </p>
-
-    <p>
-      Diese Gruppe ist bewusst klein und lokal gehalten. Das hilft, alle Beteiligten zu schützen. Wenn die Gruppe zu groß wird, können zusätzliche Gruppen erstellt werden, um alles dezentral und unauffällig zu halten. Bei Fragen könnt ihr euch an einen Admin wenden. Wir tun dies, weil unsere Nachbarn Unterstützung brauchen und wir helfen möchten.
-    </p>
-
-    <p>
-      1. Verwenden Sie die Vorlage unten und posten Sie Ihre Anfrage in der Signal-Gruppe. Teilen Sie keine persönlichen Informationen außer Ihrem Vornamen.
+      Helfer kommunizieren nur über Signal.
     </p>
     <p>
-      2. Ein helper zeigt mit einem Emoji an, dass er Ihre Anfrage übernimmt, und sendet Ihnen dann eine Direktnachricht. Helpers kommunizieren nur mit genehmigten Benutzernamen.
+      Teilen Sie keine persönlichen Informationen mit jemandem in der Gruppe, es sei denn, Sie kennen die Person persönlich oder sie ist ein verifizierter Helfer.
     </p>
     <p>
-      3. In der Direktnachricht empfehlen wir, verschwindende Nachrichten auf eine Woche zu setzen, um gespeicherte Informationen zu reduzieren.
-    </p>
-    <p>
-      4. Sobald Sie bestätigt haben, dass Sie mit einem verifizierten helper sprechen, können Sie die spezifischen Details Ihrer Anfrage teilen. Dazu gehören Listen, Zeitpläne und Ihr endgültiger Standort, sobald Sie sich dabei sicher fühlen.
-    </p>
-
-    <p>
-      Für diese Gruppe verwenden helpers Signal-Benutzernamen, die einem bestimmten Format folgen:
-    </p>
-    <div class="note">
+      Helfer-Benutzernamen folgen immer diesem Format:
+      <br>
       <strong>the + Name</strong>
-    </div>
-
-    <p>
-      Das Wort “the” muss genau so erscheinen, gefolgt von einem Namen Ihrer Wahl. Der Name kann in jeder Sprache sein.
     </p>
-
     <p>
-      Dieses Format hilft, genehmigte helpers zu identifizieren. Nachbarn sollten dieses Format nicht verwenden. Wenn es ohne Genehmigung verwendet wird, kann dies zur Entfernung oder Sperrung führen.
+      Nachbarn sollten dieses Format nicht verwenden. Wenn Sie es ohne Genehmigung verwenden, können Sie entfernt oder blockiert werden.
     </p>
-
     <p>
-      Teilen Sie keine persönlichen Informationen mit jemandem in dieser Gruppe, es sei denn, Sie kennen ihn persönlich oder er ist ein verifizierter helper. Wenn sich jemand als helper ausgibt, aber sein Benutzername nicht mit “the” beginnt, gehen Sie nicht darauf ein und informieren Sie einen Admin.
+      Wenn jemand Sie kontaktiert und behauptet, ein Helfer zu sein, aber sein Benutzername beginnt nicht mit “the”, antworten Sie nicht und benachrichtigen Sie einen Admin.
     </p>
   </div>
+</div>
+
+<script>
+  function copyMessage() {
+    const text = document.getElementById("request-message").innerText;
+    navigator.clipboard.writeText(text).then(() => {
+      const status = document.getElementById("copy-status");
+      status.style.display = "inline";
+      setTimeout(() => status.style.display = "none", 2000);
+    });
+  }
+</script>
 
 </body>
 </html>
