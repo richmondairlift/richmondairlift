@@ -64,6 +64,18 @@
       display: block;
       white-space: pre-wrap;
     }
+    .qr {
+      margin-top: 32px;
+      padding: 20px;
+      text-align: center;
+      background: #ffffff;
+      border-radius: 12px;
+      border: 1px solid #e0e0e0;
+    }
+    .qr img {
+      width: 180px;
+      margin-top: 12px;
+    }
   </style>
 </head>
 <body>
@@ -345,6 +357,15 @@
     <p>
       Teilen Sie keine persönlichen Informationen mit jemandem in dieser Gruppe, es sei denn, Sie kennen ihn persönlich oder er ist ein verifizierter helper. Wenn sich jemand als helper ausgibt, aber sein Benutzername nicht mit “the” beginnt, gehen Sie nicht darauf ein und informieren Sie einen Admin.
     </p>
+  </div>
+  
+  <!-- QR -->
+  <div class="qr">
+    <strong>Share the Richmond Airlift</strong>
+    <p>
+      Scan this QR code to visit the Richmond Airlift access page.
+    </p>
+    <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://richmondairlift.github.io/richmondairlift/" alt="Richmond Airlift QR Code">
   </div>
 
 </body>
